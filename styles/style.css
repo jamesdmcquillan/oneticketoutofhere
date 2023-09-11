@@ -347,16 +347,29 @@ h1,h3 {
  color: dark grey;
  font-size:30px;
 }
+
 h3 {
   color: dark grey;
  font-size:18px;
+
 body {
  width: auto;
- margin: 0 auto;
+ margin: auto;
  border: 0px solid white;
  padding: 10px 10px 10px 10px;
 }
 
+img.block {
+ display: block;
+ width: 300px;
+ height: auto 
+}
+
+img.small {
+ width: 200px;
+ height: auto;
+ display: block
+}
 
 
 
