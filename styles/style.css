@@ -384,6 +384,23 @@ img.small {
 }
 }
 
+@media (max-width: 800px) {
+.date_class{
+    float: right;
+    font-size: 12px;
+}
+}
+
+@media (max-width: 800px) {
+.location_class{
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Inter";
+    top: 10px;
+}
+}
+
 
 }
 
