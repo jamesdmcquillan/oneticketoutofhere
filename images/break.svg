@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.157082mm"
+   height="17.952999mm"
+   viewBox="0 0 77.157082 17.952999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="break.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:clip-to-page="true"
+     inkscape:zoom="1.9479501"
+     inkscape:cx="114.22264"
+     inkscape:cy="40.298773"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.03874725,-0.10656685)">
+    <circle
+       style="fill:#000000;fill-opacity:0.0119522;stroke:#72c4f7;stroke-width:1.68456;stroke-miterlimit:4.4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2-9-7"
+       r="8.0184288"
+       cy="-9.1984196"
+       cx="68.335121"
+       transform="scale(1,-1)" />
+    <circle
+       style="fill:#000000;fill-opacity:0.0119522;stroke:#72c4f7;stroke-width:1.68456;stroke-miterlimit:4.4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2-9-7-9"
+       r="8.0184288"
+       cy="-9.01824"
+       cx="38.533669"
+       transform="scale(1,-1)" />
+    <circle
+       style="fill:#000000;fill-opacity:0.0119522;stroke:#72c4f7;stroke-width:1.68456;stroke-miterlimit:4.4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2-9-7-9-5"
+       r="8.0184288"
+       cy="-8.9672756"
+       cx="8.899456"
+       transform="scale(1,-1)" />
+  </g>
+</svg>
