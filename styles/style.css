@@ -346,7 +346,7 @@ tagmedium:after {
 @media (max-width: 800px) {
 h1,h3 {
  color: dark grey;
- font-size:30px;
+ font-size:20px;
  padding: 30px 0px 0px 0px;
 }
 }
