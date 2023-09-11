@@ -38,7 +38,7 @@ body {
  width: auto;
  margin: 0 auto;
  border: 0px solid white;
- padding: 10px 150px 10px 150px;
+ padding: 10px 70px 10px 70px;
 }
 
 select {
@@ -337,6 +337,29 @@ tagmedium:after {
 
 .footer {
  text-align: center;
+}
+
+
+/* MOBILE MEDIA BELOW */
+
+@media (max-width: 800px) {
+h1,h3 {
+ color: dark grey;
+ font-size:30px;
+}
+h3 {
+  color: dark grey;
+ font-size:18px;
+body {
+ width: auto;
+ margin: 0 auto;
+ border: 0px solid white;
+ padding: 10px 10px 10px 10px;
+}
+
+
+
+
 }
 
 
