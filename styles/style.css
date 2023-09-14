@@ -47,10 +47,6 @@ h3 {
  font-style: italic;
 }
 
-h3 {
- font-size: 19px;
- font-style: italic;
-}
 
 .titles {
   top: 20px;
@@ -96,11 +92,12 @@ label {
 h4 {
  font-size: 15px;
  text-align: left;
+ font-style: italic;
 }
 
 p {
  font-size: 12px;
- text-align: left;
+ text-align: center;
  margin-left: 30px;
  margin-right: 30px;
 }
@@ -342,6 +339,57 @@ taglong:after {
  transform: rotate(225deg);
  border-color: #6E9CB9;
 }
+
+tagvlong {
+  float: left;
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  border: 1.5px solid black;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  width: 300px;
+  border-color: #6E9CB9;
+}
+
+tagvlong:before {
+  content: '';
+  z-index: 1;
+  display: inline-block; 
+ height: 5px;
+ width: 5px;
+ border-radius: 50%;
+ display: inline-block;
+ border: 1.0px solid black;
+ position: absolute;
+ top: 14px;
+ right: 302px;
+ border-color: #6E9CB9;
+}
+
+tagvlong:after {
+ content: "";
+ position: absolute;
+ top: 4px;
+ right: 286px;
+ width: 25.5px;
+ height: 25.5px;
+ border: 1.5px solid black;
+ border-left: none;
+ border-bottom: none;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ transform: rotate(225deg);
+ border-color: #6E9CB9;
+}
+
+
 
 tagmedium {
   float: left;
