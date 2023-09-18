@@ -490,7 +490,7 @@ body {
   background: #cadbe6;
   /* overflow: hidden; */
 }
-
+}
 
 @media (max-width: 500px) {
 img.centre {
@@ -553,16 +553,6 @@ map a {
     transform: scale(0.8);	
 }
 }
-
-
-}
-
-
-
-
-}
-
-
 
 
 }
