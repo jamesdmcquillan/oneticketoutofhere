@@ -587,6 +587,23 @@ originIATA {
 }
 
 
+warningbox {
+  float: center;
+  display: inline-block;
+  height: 200px;
+  position: relative;
+  border: 3px solid black;
+  border-radius: 4px;
+  width: 400px;
+  border-color: red;
+  background-color: white;
+}
+
+
+
+
+
+
 .footer {
  text-align: center;
 }
