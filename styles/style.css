@@ -132,9 +132,12 @@ img.small {
  display: block
 }
 
+img.vsmall {
+ width: 150px;
+ height: auto;
+ display: block
+}
 
-/* PLAYING AROUND WITH IT HERE! */
- 
 
 deets {
   color: black;
@@ -145,6 +148,7 @@ deets {
 map {
   margin-bottom: 0px;
   float: right;
+  display: inline-flex;
 }
 
 map a {
@@ -164,6 +168,34 @@ map a {
     padding-right: 20px;
     color: black;
 }
+
+.flight_class{
+    float: right;
+    display: inline-flex;
+    padding-top: 9px;
+    padding-right: 20px;
+}
+
+.IATAorigin_class{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Inter";
+    top: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.IATAdestination_class{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Inter";
+    top: 10px;
+    margin-left: 20px;
+    color: black;
+}
+
+
+
 
 .date_class{
     float: left; 
@@ -440,6 +472,120 @@ tagmedium:after {
  border-color: #6E9CB9;
 }
 
+tagshort {
+  float: left;
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  border: 1.5px solid black;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  width: 150px;
+  border-color: #6E9CB9;
+}
+
+tagshort:before {
+  content: '';
+  z-index: 1;
+  display: inline-block; 
+ height: 5px;
+ width: 5px;
+ border-radius: 50%;
+ display: inline-block;
+ border: 1.0px solid black;
+ position: absolute;
+ top: 14px;
+ right: 152px;
+ border-color: #6E9CB9;
+}
+
+tagshort:after {
+ content: "";
+ position: absolute;
+ top: 4px;
+ right: 136px;
+ width: 25.5px;
+ height: 25.5px;
+ border: 1.5px solid black;
+ border-left: none;
+ border-bottom: none;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ transform: rotate(225deg);
+ border-color: #6E9CB9;
+}
+
+
+
+
+
+tagIATA {
+  float: left;
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  border: 1.5px solid black;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  width: 40px;
+  border-color: #6E9CB9;
+}
+
+tagIATA:before {
+  content: '';
+  z-index: 1;
+  display: inline-block; 
+ height: 5px;
+ width: 5px;
+ border-radius: 50%;
+ display: inline-block;
+ border: 1.0px solid black;
+ position: absolute;
+ top: 14px;
+ right: 42px;
+ border-color: #6E9CB9;
+}
+
+tagIATA:after {
+ content: "";
+ position: absolute;
+ top: 4px;
+ right: 26px;
+ width: 25.5px;
+ height: 25.5px;
+ border: 1.5px solid black;
+ border-left: none;
+ border-bottom: none;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 1px;
+ border-bottom-right-radius: 1px;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ transform: rotate(225deg);
+ border-color: #6E9CB9;
+}
+
+
+originIATA {
+  float: left;
+  display: inline-block;
+  height: 35px;
+  position: relative;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  width: 50px;
+  border-color: #6E9CB9;
+}
+
 
 .footer {
  text-align: center;
@@ -513,6 +659,7 @@ img.small {
 map {
   margin-bottom: 0px;
   float: right;
+  display: inline-flex;
 }
 }
 
@@ -536,14 +683,50 @@ map a {
     padding-right: 0px;
     color: black;
     transform: scale(0.8);
+    margin-left: 120px;
 }
 }
+
+
+
+@media (max-width: 500px) {
+.IATAorigin_class{
+    text-align: center;
+    padding-right: 6px;
+    color: black;
+}
+}
+
+@media (max-width: 500px) {
+.IATAdestination_class{
+    float: right;
+    text-align: center;
+    padding-right: 0px;
+    color: black;
+}
+}
+
+@media (max-width: 500px) {
+.flight_class{
+    float: right;
+    padding-right: 0px;
+    padding-left: 0px;
+    transform: scale(0.8);
+    margin-top: -22px;
+    margin-left: 120px;
+
+}
+}
+
+
+
 
 @media (max-width: 500px) {
 .date_class{
     float:right; 
     left:10px; 
     bottom:1px;
+    display: inline-flex;
     font-size: 15px;
     text-align: left;
     text-color: black;
@@ -553,6 +736,70 @@ map a {
     transform: scale(0.8);	
 }
 }
+
+
+
+.aircraft {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 19px;
+    height: 18px;
+    transform: scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,
+            currentColor 22px,
+            transparent 0
+        ) no-repeat center/16px 3px,
+        radial-gradient(
+            circle,
+            currentColor 60%,
+            transparent 40%
+        ) no-repeat right center/3px 3px
+}
+.aircraft::after,
+.aircraft::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 10px;
+    height: 8px;
+    border-right: 4px solid
+}
+.aircraft::before {
+    border-top-right-radius: 3px;
+    top: 0;
+    transform:
+        perspective(10px)
+        rotateX(10deg)
+        skewX(30deg);
+    box-shadow: -4px 3px 0 -2px
+}
+.aircraft::after {
+    border-bottom-right-radius: 3px;
+    bottom: 0;
+    transform:
+        perspective(10px)
+        rotateX(-10deg)
+        skewX(-30deg);
+    box-shadow: -4px -3px 0 -2px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
